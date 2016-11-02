@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2B43F51C30C39F0062AEDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B43F41C30C39F0062AEDF /* AppDelegate.m */; };
+		0D2B43F81C30C39F0062AEDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B43F71C30C39F0062AEDF /* main.m */; };
+		0D2B43FA1C30C39F0062AEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2B43F91C30C39F0062AEDF /* Assets.xcassets */; };
+		0D2B43FD1C30C39F0062AEDF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D2B43FB1C30C39F0062AEDF /* MainMenu.xib */; };
+		0DE393301C5467F3001F9308 /* Push.h in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3932F1C5467F3001F9308 /* Push.h */; };
+		0DE393321C5468D8001F9308 /* Push.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE393311C5468D8001F9308 /* Push.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D2B43F01C30C39F0062AEDF /* TeacherApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2B43F31C30C39F0062AEDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D2B43F41C30C39F0062AEDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D2B43F71C30C39F0062AEDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D2B43F91C30C39F0062AEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D2B43FC1C30C39F0062AEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0D2B43FE1C30C39F0062AEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE3932C1C54678E001F9308 /* TeacherApplication-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeacherApplication-Bridging-Header.h"; sourceTree = "<group>"; };
+		0DE3932F1C5467F3001F9308 /* Push.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Push.h; sourceTree = "<group>"; };
+		0DE393311C5468D8001F9308 /* Push.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Push.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D2B43ED1C30C39F0062AEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2B43E71C30C39F0062AEDF = {
+			isa = PBXGroup;
+			children = (
+				0D2B43F21C30C39F0062AEDF /* TeacherApplication */,
+				0D2B43F11C30C39F0062AEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D2B43F11C30C39F0062AEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D2B43F01C30C39F0062AEDF /* TeacherApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D2B43F21C30C39F0062AEDF /* TeacherApplication */ = {
+			isa = PBXGroup;
+			children = (
+				0D2B43F31C30C39F0062AEDF /* AppDelegate.h */,
+				0D2B43F41C30C39F0062AEDF /* AppDelegate.m */,
+				0DE3932F1C5467F3001F9308 /* Push.h */,
+				0DE393311C5468D8001F9308 /* Push.m */,
+				0D2B43F91C30C39F0062AEDF /* Assets.xcassets */,
+				0D2B43FB1C30C39F0062AEDF /* MainMenu.xib */,
+				0D2B43FE1C30C39F0062AEDF /* Info.plist */,
+				0D2B43F61C30C39F0062AEDF /* Supporting Files */,
+				0DE3932C1C54678E001F9308 /* TeacherApplication-Bridging-Header.h */,
+			);
+			path = TeacherApplication;
+			sourceTree = "<group>";
+		};
+		0D2B43F61C30C39F0062AEDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D2B43F71C30C39F0062AEDF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D2B43EF1C30C39F0062AEDF /* TeacherApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2B44011C30C39F0062AEDF /* Build configuration list for PBXNativeTarget "TeacherApplication" */;
+			buildPhases = (
+				0D2B43EC1C30C39F0062AEDF /* Sources */,
+				0D2B43ED1C30C39F0062AEDF /* Frameworks */,
+				0D2B43EE1C30C39F0062AEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeacherApplication;
+			productName = TeacherApplication;
+			productReference = 0D2B43F01C30C39F0062AEDF /* TeacherApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D2B43E81C30C39F0062AEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Curtis Mason";
+				TargetAttributes = {
+					0D2B43EF1C30C39F0062AEDF = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D2B43EB1C30C39F0062AEDF /* Build configuration list for PBXProject "TeacherApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D2B43E71C30C39F0062AEDF;
+			productRefGroup = 0D2B43F11C30C39F0062AEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D2B43EF1C30C39F0062AEDF /* TeacherApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D2B43EE1C30C39F0062AEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2B43FA1C30C39F0062AEDF /* Assets.xcassets in Resources */,
+				0D2B43FD1C30C39F0062AEDF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D2B43EC1C30C39F0062AEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE393321C5468D8001F9308 /* Push.m in Sources */,
+				0D2B43F81C30C39F0062AEDF /* main.m in Sources */,
+				0DE393301C5467F3001F9308 /* Push.h in Sources */,
+				0D2B43F51C30C39F0062AEDF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D2B43FB1C30C39F0062AEDF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D2B43FC1C30C39F0062AEDF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D2B43FF1C30C39F0062AEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0D2B44001C30C39F0062AEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0D2B44021C30C39F0062AEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TeacherApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MASON-FAMILY.TeacherApplication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeacherApplication/TeacherApplication-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D2B44031C30C39F0062AEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TeacherApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MASON-FAMILY.TeacherApplication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeacherApplication/TeacherApplication-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D2B43EB1C30C39F0062AEDF /* Build configuration list for PBXProject "TeacherApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2B43FF1C30C39F0062AEDF /* Debug */,
+				0D2B44001C30C39F0062AEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2B44011C30C39F0062AEDF /* Build configuration list for PBXNativeTarget "TeacherApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2B44021C30C39F0062AEDF /* Debug */,
+				0D2B44031C30C39F0062AEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D2B43E81C30C39F0062AEDF /* Project object */;
+}
